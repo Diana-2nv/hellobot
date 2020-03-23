@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.6'
 
     - name: Build using AppService-Build
       uses: azure/appservice-build@v1
@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'covidflask'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dbad6b376c1d4d3c91feedc17f495cf5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7a11ba0660c74f79a780ff1c2df09ff2 }}
