@@ -1,6 +1,4 @@
 from flask import Flask
-from flask_apispec import use_kwargs
-from webargs import fields
 
 
 app = Flask(__name__)
