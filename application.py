@@ -1,5 +1,5 @@
 from flask import Flask
-from webargs import fields
+
 
 app = Flask(__name__)
 
